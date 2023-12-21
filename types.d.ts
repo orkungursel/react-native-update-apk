@@ -69,7 +69,7 @@ export type UpdateAPKConstructorArgs = {
    * By default the following options are already set: fromUrl, toFile, begin, progress, background and progressDivider
    * You should use it if you need to pass additional information (for example: headers) to download the new APK
    */
-  apkOptions?: Record<string, string>;
+  apkOptions?: Record<string, any>;
 
   /**
    * The name of this `fileProviderAuthority` is defined in AndroidManifest.xml. **THEY MUST MATCH**.
